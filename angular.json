@@ -161,15 +161,14 @@
           "options": {
             "browserTarget": "test-cloud-build:build:production",
             "serverTarget": "test-cloud-build:server:production",
-            "routes": [
-              "/"
-            ]
+            "routes": []
           },
           "configurations": {
             "production": {}
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "test-cloud-build"
 }
