@@ -11,7 +11,7 @@
     "dev:ssr": "ng run test-cloud-build:serve-ssr",
     "serve:ssr": "node dist/test-cloud-build/server/main.js",
     "build:ssr": "ng build --prod && ng run test-cloud-build:server:production",
-    "prerender": "ng run test-cloud-build:prerender"
+    "prerender": "ng run test-cloud-build:prerender --routesFile routes.txt"
   },
   "private": true,
   "dependencies": {
