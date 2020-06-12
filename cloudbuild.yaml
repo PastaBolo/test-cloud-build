@@ -7,7 +7,7 @@ steps:
   name: 'gcr.io/cloud-builders/npm'
   args:
   - 'run'
-  - 'build:prerender'
+  - 'prerender'
   waitFor:
   - install_packages
 - id: copy_prerendered_files
